@@ -1,4 +1,4 @@
-ZKRecipesByExample fock[鸟窝](http://colobu.com/tags/Curator/)
+ZKRecipesByExample 来源[鸟窝](http://colobu.com/tags/Curator/)
 ==================
 
 all examples for ZooKeeper recipes by Curator
