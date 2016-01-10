@@ -22,7 +22,7 @@
 		<springframework.version>4.1.1.RELEASE</springframework.version>
 		<slf4j.version>1.7.7</slf4j.version>
 		<logback.version>1.1.2</logback.version>
-		<jackson.version>2.4.4</jackson.version>
+		<jackson.version>1.9.2</jackson.version>
 		<freemarker.version>2.3.20</freemarker.version>
 		<sitemesh.version>2.4.2</sitemesh.version>
 		<commons-codec.version>1.10</commons-codec.version>
@@ -56,6 +56,11 @@
 			</dependency>
 			<dependency>
 				<groupId>org.apache.curator</groupId>
+				<artifactId>curator-x-discovery</artifactId>
+				<version>${curator.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.curator</groupId>
 				<artifactId>curator-test</artifactId>
 				<version>${curator.version}</version>
 			</dependency>
@@ -64,21 +69,31 @@
 				<artifactId>curator-examples</artifactId>
 				<version>${curator.version}</version>
 			</dependency>
-		    <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 				<artifactId>jackson-core</artifactId> -->
+<!-- 				<version>${jackson.version}</version> -->
+<!-- 			</dependency> -->
+<!-- 			<dependency> -->
+<!-- 				<groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 				<artifactId>jackson-databind</artifactId> -->
+<!-- 				<version>${jackson.version}</version> -->
+<!-- 			</dependency> -->
+<!-- 			<dependency> -->
+<!-- 				<groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 				<artifactId>jackson-annotations</artifactId> -->
+<!-- 				<version>${jackson.version}</version> -->
+<!-- 			</dependency> -->
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-core-lgpl</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-mapper-lgpl</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
