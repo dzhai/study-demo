@@ -191,5 +191,6 @@
 		<module>redis-demo</module>
 		<module>jms-demo</module>
 		<module>spring-demo</module>
+		<module>logback_demo</module>
 	</modules>
 </project>
