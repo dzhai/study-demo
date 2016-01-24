@@ -1,4 +1,4 @@
-package net.dzhai.demo.activemq.pubsub;
+package net.dzhai.demo.activemq.queue;
 
 import javax.jms.Connection;
 import javax.jms.DeliveryMode;
