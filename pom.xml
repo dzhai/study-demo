@@ -207,5 +207,6 @@
 		<module>jms-demo</module>
 		<module>spring-demo</module>
 		<module>logback_demo</module>
+		<module>jdk-demo</module>
 	</modules>
 </project>
