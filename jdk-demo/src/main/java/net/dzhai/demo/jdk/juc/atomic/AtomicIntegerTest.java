@@ -28,7 +28,7 @@ public class AtomicIntegerTest {
 		System.out.println(ai.get());
 		
 		
-	}
+	}}
 
-}
+
 
